@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 36px 0 auto;
+  margin-bottom: 32px;
+}
+input {
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #808080;
+  border: 1px solid #808080;
+  padding: 2px 8px;
+}
+button {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 91px;
+  height: 40px;
+  display: block;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}

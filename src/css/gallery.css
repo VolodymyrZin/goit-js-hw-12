@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 36px 156px;
+}
+.gallery-item {
+  flex-basis: calc((100% - 48px) / 3);
+  border: 1px solid #808080;
+  box-sizing: border-box;
+}
+.gallery-image {
+  object-fit: cover;
+  width: 100%;
+  height: 152px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 25px 4px 20px;
+}
+.info-item b {
+  display: block;
+}
+.pagination-btn {
+  border-radius: 8px;
+  background-color: #4e75ff;
+  width: 125px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0 auto;
+}
